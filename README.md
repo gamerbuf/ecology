@@ -1,1 +1,106 @@
-# ecology
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVision — Сохраним планету вместе</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Навигация -->
+    <header>
+        <nav class="container">
+            <div class="logo">Eco<span>Vision</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#stats">Статистика</a></li>
+                <li><a href="#tips">Советы</a></li>
+                <li><a href="#join" class="btn-small">Присоединиться</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Природа не просит помощи, <br><span>она требует действий.</span></h1>
+            <p class="fade-in">Узнайте, как ваш ежедневный выбор влияет на экологию всей планеты.</p>
+            <div class="hero-btns">
+                <a href="#tips" class="btn btn-primary">Начать путь</a>
+                <a href="#about" class="btn btn-secondary">Узнать больше</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция статистики -->
+    <section id="stats" class="stats container">
+        <div class="stat-item">
+            <h2 class="counter">8 млн</h2>
+            <p>тонн пластика попадает в океан ежегодно</p>
+        </div>
+        <div class="stat-item">
+            <h2 class="counter">27 000</h2>
+            <p>деревьев вырубается ежедневно ради бумаги</p>
+        </div>
+        <div class="stat-item">
+            <h2 class="counter">1.5°C</h2>
+            <p>критический порог глобального потепления</p>
+        </div>
+    </section>
+
+    <!-- Эко-советы (Карточки) -->
+    <section id="tips" class="tips-section">
+        <div class="container">
+            <h2 class="section-title">Простые шаги к осознанности</h2>
+            <div class="grid">
+                <div class="tip-card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=500&q=80');"></div>
+                    <div class="card-content">
+                        <h3>Откажитесь от пластика</h3>
+                        <p>Используйте многоразовые сумки и бутылки. Одна эко-сумка заменяет до 300 пакетов в год.</p>
+                    </div>
+                </div>
+                <div class="tip-card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1591193520257-c030ea857817?auto=format&fit=crop&w=500&q=80');"></div>
+                    <div class="card-content">
+                        <h3>Экономьте воду</h3>
+                        <p>Выключайте воду во время чистки зубов. Это экономит до 10 литров в минуту.</p>
+                    </div>
+                </div>
+                <div class="tip-card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1545239351-ef35f43d514b?auto=format&fit=crop&w=500&q=80');"></div>
+                    <div class="card-content">
+                        <h3>Сортируйте отходы</h3>
+                        <p>Начните с малого: отделяйте бумагу и пластик. Вторичная переработка спасает ресурсы.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма подписки -->
+    <section id="join" class="newsletter">
+        <div class="container">
+            <h2>Станьте частью сообщества</h2>
+            <p>Получайте еженедельный дайджест об эко-событиях и лайфхаках.</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Ваш Email" required>
+                <button type="submit" class="btn btn-primary">Подписаться</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 EcoVision Project. Сохраним Землю чистой.</p>
+            <div class="socials">
+                <a href="#">Instagram</a>
+                <a href="#">Telegram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
